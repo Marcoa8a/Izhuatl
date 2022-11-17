@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.izhuatl.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_plants"
+        android:name="com.example.izhuatl.ui.gallery.GalleryFragment"
+        android:label="@string/info_plants"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.izhuatl.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_growing"
+        android:name="com.example.izhuatl.GrowingPlantFragment"
+        android:label="fragment_growing_plant"
+        tools:layout="@layout/fragment_growing_plant" />
+    <fragment
+        android:id="@+id/nav_irrigation"
+        android:name="com.example.izhuatl.IrrigationFragment"
+        android:label="fragment_irrigation"
+        tools:layout="@layout/fragment_irrigation" />
+    <fragment
+        android:id="@+id/nav_lumenes"
+        android:name="com.example.izhuatl.LumenesFragment"
+        android:label="fragment_lumenes"
+        tools:layout="@layout/fragment_lumenes" />
+    <fragment
+        android:id="@+id/nav_userinfo"
+        android:name="com.example.izhuatl.UserInfoFragment"
+        android:label="fragment_user_info"
+        tools:layout="@layout/fragment_user_info" />
+    <fragment
+        android:id="@+id/nav_addplant"
+        android:name="com.example.izhuatl.AddPlantFragment"
+        android:label="fragment_add_plant"
+        tools:layout="@layout/fragment_add_plant" />
+    <fragment
+        android:id="@+id/nav_newplant"
+        android:name="com.example.izhuatl.NewPlantFragment"
+        android:label="fragment_new_plant"
+        tools:layout="@layout/fragment_new_plant" />
+</navigation>
