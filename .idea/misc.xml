@@ -3,31 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_info.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_irrigation.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_logout.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_lumenes.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_menu_camera.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/drawable/ic_photostimulator.xml" value="0.141" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_change_password.xml" value="0.23777173913043478" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_main2.xml" value="0.23777173913043478" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_recover_account.xml" value="0.23777173913043478" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_register.xml" value="0.23777173913043478" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/activity_security_code.xml" value="0.23777173913043478" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/content_menu_drawer.xml" value="0.21331521739130435" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/fragment_gallery.xml" value="0.21331521739130435" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/fragment_home.xml" value="0.22" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/layout/fragment_lumenes.xml" value="0.21331521739130435" />
-        <entry key="..\:/Proyecto Moviles/Izhuatl/app/src/main/res/menu/activity_main_drawer.xml" value="0.3046875" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/bottom_circle.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/ic_account_black.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/ic_baseline_play.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/ic_irrigation.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/ic_lumenes.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/drawable/ic_lumens.xml" value="0.229" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/layout/fragment_irrigation.xml" value="0.13179347826086957" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/layout/fragment_lumenes.xml" value="0.1" />
+        <entry key="..\:/Moviles/Izhuatl/Izhuatl-main/app/src/main/res/layout/fragment_user_info.xml" value="0.13179347826086957" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
