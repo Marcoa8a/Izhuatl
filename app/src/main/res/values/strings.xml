@@ -20,4 +20,10 @@
     <string name="growing_plant">Growing plant</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_growing">Growing plant</string>
+    <string name="menu_irrigation">Irrigation</string>
+    <string name="menu_lumenes">Lumenes</string>
+    <string name="menu_userInfo">User info</string>
+    <string name="menu_newPlant">New plant</string>
+    <string name="menu_amapola">Amapola</string>
 </resources>

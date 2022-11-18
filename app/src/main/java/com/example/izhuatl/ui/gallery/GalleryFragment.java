@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.izhuatl.R;
 import com.example.izhuatl.RecoverAccount;
 import com.example.izhuatl.databinding.FragmentGalleryBinding;
+import com.example.izhuatl.ui.details.DetailsFragment;
 
 public class GalleryFragment extends Fragment {
 
@@ -37,6 +39,15 @@ public class GalleryFragment extends Fragment {
             }
         });
 
+        /*Direcionamiento de imagen amapola a detalles
+        ImageView imageViewDetails = (ImageView) root.findViewById(R.id.image_amapola);
+        imageViewDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), DetailsFragment.class);
+                startActivity(intent);
+            }
+        });*/
         return root;
     }
 
@@ -44,6 +55,9 @@ public class GalleryFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+
+    public void showDetailsAmapola(View view) {
     }
 }
 

@@ -25,31 +25,36 @@
     <fragment
         android:id="@+id/nav_growing"
         android:name="com.example.izhuatl.GrowingPlantFragment"
-        android:label="fragment_growing_plant"
+        android:label="@string/menu_growing"
         tools:layout="@layout/fragment_growing_plant" />
     <fragment
         android:id="@+id/nav_irrigation"
         android:name="com.example.izhuatl.IrrigationFragment"
-        android:label="fragment_irrigation"
+        android:label="@string/menu_irrigation"
         tools:layout="@layout/fragment_irrigation" />
     <fragment
         android:id="@+id/nav_lumenes"
         android:name="com.example.izhuatl.LumenesFragment"
-        android:label="fragment_lumenes"
+        android:label="@string/menu_lumenes"
         tools:layout="@layout/fragment_lumenes" />
     <fragment
         android:id="@+id/nav_userinfo"
         android:name="com.example.izhuatl.UserInfoFragment"
-        android:label="fragment_user_info"
+        android:label="@string/menu_userInfo"
         tools:layout="@layout/fragment_user_info" />
     <fragment
         android:id="@+id/nav_addplant"
         android:name="com.example.izhuatl.AddPlantFragment"
-        android:label="fragment_add_plant"
+        android:label="Add plant"
         tools:layout="@layout/fragment_add_plant" />
     <fragment
         android:id="@+id/nav_newplant"
         android:name="com.example.izhuatl.NewPlantFragment"
-        android:label="fragment_new_plant"
+        android:label="@string/menu_newPlant"
         tools:layout="@layout/fragment_new_plant" />
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.izhuatl.DetailsFragment"
+        android:label="@string/menu_amapola"
+        tools:layout="@layout/fragment_details" />
 </navigation>

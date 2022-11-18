@@ -92,7 +92,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/amapola"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_medicinal" />
+        app:layout_constraintTop_toBottomOf="@+id/text_medicinal"
+        android:onClick="showDetailsAmapola"/>
 
     <ImageView
         android:id="@+id/image_manzanilla"
