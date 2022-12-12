@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Izhuatl</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password_text">I forgot my password</string>
+    <string name="register_user_btn">New user? Register now</string>
+    <string name="login">Login</string>
+    <string name="title_activity_menu_drawer">MenuDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="info_plants">More plants</string>
+    <string name="growing_plant">Growing plant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="enter_the_code">Enter the code</string>
+    <string name="enter_digital">Enter the 6-digit verification code from the email send to you</string>
+    <string name="check">Check</string>
+    <string name="skip">Skip</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_last_name">Enter your last name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="create_account">Create account</string>
+    <string name="register">Register</string>
+    <string name="recover_your_account">Recover your account</string>
+    <string name="recover_email">Enter your email address to search for your account</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_password">Change password</string>
+    <string name="new_password">Create a new, secure password that is at least 8 characters long.</string>
+    <string name="create_a_strong_password">Create a strong password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="save_password">Save password</string>
+    <string name="skipp">Skip</string>
+    <string name="info">It si an annual plant that can reach more than 50cm in height. It has erect and slightly branched stems with fine hairs. The leaves, which are borne alternately along the stem, without petiole, are pinnate and very toothed on the margins with a single midrib.</string>
+    <string name="important_aspects">Important aspects</string>
+    <string name="temperature">Temperature: 5 max.</string>
+    <string name="humidity">Humidity: 10%</string>
+    <string name="height">Height: 120cm max and \n 15cm min.</string>
+    <string name="new_plant">New Plant</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_size">Enter the size</string>
+    <string name="enter_the_date">Enter the date</string>
+    <string name="enter_the_type">Enter the type</string>
+    <string name="show_plant">Show plant</string>
+    <string name="update_plant">Update plant</string>
+    <string name="delete_plant">Delete plant</string>
+    <string name="name_add">Name</string>
+    <string name="enter_your_name_add">Enter your name</string>
+    <string name="type_of_plant_add">Type of plant</string>
+    <string name="enter_the_type_add">Enter the type</string>
+    <string name="start_date_on_photostimulador_add">Start date on photostimulador</string>
+    <string name="enter_the_date_add">Enter the date</string>
+    <string name="initial_size_add">Initial size</string>
+    <string name="enter_the_size_add">Enter the size</string>
+    <string name="save_add">Save</string>
+    <string name="new_password_password">New password</string>
+    <string name="bromeliad_is_a_tropical_american_genus_of_plants_of_the_family_bromeliaceae_although_bromelia">Bromeliad is a tropical American genus of plants of the family Bromeliaceae, although plants of other genera of the same family are commonly called by the same name. Its flowers have a very deep calyx.</string>
+    <string name="temperature_10_max_bromelia">Temperature: 10 max</string>
+    <string name="humedity_20_bromelia">Humedity: 20%</string>
+    <string name="height_160cm_max_and_50cm_min_bromelia">Height:160cm max and 50cm min</string>
+    <string name="chamomile_is_a_plant_chamonile">Chamomile is a plant with small white-petaled flowers, similar to daisies, which is used mainly for medicinal and therapeutic purposes.</string>
+    <string name="temperature_35_max_chamonile">Temperature: 35 max</string>
+    <string name="humedity_25_chamonile">Humedity: 25%</string>
+    <string name="height_30cm_max_and_5cm_min_chamonile">Height:30cm max and 5cm min</string>
+    <string name="brazil_logwood_also_known_brazil">Brazil Logwood, also known by its scientific name Dracaena fragans Massageana, is a very interesting and easy to care for upright houseplant.</string>
+    <string name="temperature_30_max_brazil">Temperature: 30 max</string>
+    <string name="humedity_5_brazil">Humedity: 5%</string>
+    <string name="height_120cm_max_and_10cm_min_brazil">Height:120cm max and 10cm min</string>
+    <string name="is_the_tomato">is the fruit of the Solanum lycopersicum plant, which has culinary importance and is used as a vegetable. Being the tomato a fruit botanically classified as a berry, it is commonly used in culinary art as a vegetable ingredient or garnish.</string>
+    <string name="temperature_29_max_tomato">Temperature: 29 max</string>
+    <string name="humedity_35_tomato">Humedity: 35%</string>
+    <string name="height_450cm_max_and_120cm_min_tomato">Height:450cm max and 120cm min</string>
+    <string name="it_is_the_domesticated_form_of_the_wild_carrot_daucus_carota_a_species_of_the_umbelliferae_family_also_called_apiaceae_and_considered_the_most_important_and_most_consumed_within_this_family_it_carrot">It is the domesticated form of the wild carrot (Daucus carota), a species of the umbelliferae family, also called apiaceae, and considered the most important and most consumed within this family. It is native to Europe and Southwest Asia. It is cultivated for its much larger, tastier and less fibrous root texture than the wild species.</string>
+    <string name="temperature_25_max_carrot">Temperature: 25 max</string>
+    <string name="humedity_45_carrot">Humedity: 45%</string>
+    <string name="height_25cm_max_and_5cm_min_carrot">Height:25cm max and 5cm min</string>
+    <string name="warning_not">Warning</string>
+    <string name="humedity_n_humedity_is_above_accepted_limits_not">Humedity  Humedity is above accepted limits.</string>
+    <string name="notice_not">Notice</string>
+    <string name="water_n_the_irrigation_process_is_finished_not">Water  The irrigation process is finished.</string>
+    <string name="ornamental_plants_gallery">Ornamental plants</string>
+    <string name="tronco_de_brasil_gallery" translatable="false">Tronco de Brasil</string>
+    <string name="bromelia_gallery" translatable="false">Bromelia</string>
+    <string name="medicinal_plants_gallery">Medicinal plants</string>
+    <string name="manzanilla_gallery" translatable="false">Manzanilla</string>
+    <string name="amapola_gallery" translatable="false">Amapola</string>
+    <string name="cultivated_plants_gallery">Cultivated plants</string>
+    <string name="tomate_gallery">Tomate</string>
+    <string name="zanahoria_gallery">Zanahoria</string>
+    <string name="add_plant_gallery">Add Plant</string>
+    <string name="name_growing">Name</string>
+    <string name="photos_growing">Photos</string>
+    <string name="type_of_plant_growing">Type of plant</string>
+    <string name="ornamental_growing">Ornamental</string>
+    <string name="start_date_on_photostimulador_growing">Start date on photostimulador</string>
+    <string name="initial_size_growing">Initial size</string>
+    <string name="metabolic_photostimulator_for_chlorophyll_to_accelerate_plant_growth_growing">Metabolic photostimulator for chlorophyll to accelerate plant growth.</string>
+    <string name="growth_at_every_pulse_growing">Growth at every pulse</string>
+    <string name="_1_hour_30_minutes_irrigation">1 hour 30 minutes</string>
+    <string name="_1_hour_irrigation">1 hour</string>
+    <string name="_30_minutes_irrigation">30 minutes</string>
+    <string name="_15_minutes_irrigation">15 minutes</string>
+    <string name="_10_minutes_irrigation">10 minutes</string>
+    <string name="_5_minutes_irrigation">5 minutes</string>
+    <string name="_level_of_lumens_lumen">Level of Lumens</string>
+    <string name="temperature_slide">Temperature</string>
+    <string name="humity_slide">Humity</string>
+    <string name="height_slide">Height</string>
+    <string name="fist_name_slide">Fist Name</string>
+    <string name="last_name_slide">Last Name</string>
+    <string name="lastname_info">LastName</string>
+    <string name="email_info">Email</string>
+    <string name="email_info1">Email</string>
+    <string name="i_forgot_my_password_info">I forgot my password</string>
+</resources>

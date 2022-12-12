@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D390E"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:id="@+id/temperature"
+            android:layout_width="200dp"
+            android:layout_height="340dp"
+            android:layout_marginTop="84dp"
+            android:background="#EFF4EF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:text="@string/temperature_slide"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/grados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="45°"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="80sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_marginTop="200dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/calor" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/humity"
+            android:layout_width="200dp"
+            android:layout_height="340dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="4dp"
+            android:background="#29572B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/temperature"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.225">
+
+            <TextView
+                android:id="@+id/texthumity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:text="@string/humity_slide"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/porcentaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="90%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="80sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_marginTop="200dp">
+
+                <ImageView
+                    android:id="@+id/imgporcentaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/humedad" />
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/height"
+            android:layout_width="409dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="62dp"
+            android:background="#235925"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temperature">
+
+            <TextView
+                android:id="@+id/textheight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:text="@string/height_slide"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/cm"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="10cm"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="60sp" />
+
+            <FrameLayout
+                android:layout_width="178dp"
+                android:layout_height="179dp"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="60dp"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/medida" />
+            </FrameLayout>
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

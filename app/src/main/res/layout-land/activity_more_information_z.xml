@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#394450"
+    tools:context=".MoreInformationT"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/image_zanahoria"
+        android:layout_width="wrap_content"
+        android:layout_height="700px"
+        android:scaleType="fitXY"
+        android:src="@drawable/zanahoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/details_zanahoria2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#396568"
+        android:text="@string/it_is_the_domesticated_form_of_the_wild_carrot_daucus_carota_a_species_of_the_umbelliferae_family_also_called_apiaceae_and_considered_the_most_important_and_most_consumed_within_this_family_it_carrot"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_zanahoria" />
+
+    <ImageView
+        android:id="@+id/image_zanahoria2"
+        android:layout_width="550px"
+        android:layout_height="950px"
+        android:scaleType="fitXY"
+        android:src="@drawable/zanahoria2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_zanahoria2" />
+
+    <TextView
+        android:id="@+id/text_aspects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/important_aspects"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/image_zanahoria2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_zanahoria2" />
+
+    <TextView
+        android:id="@+id/text_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/temperature_25_max_carrot"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_aspects" />
+
+    <TextView
+        android:id="@+id/text_hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/humedity_45_carrot"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_temp" />
+
+    <TextView
+        android:id="@+id/text_height"
+        android:layout_width="179dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/height_25cm_max_and_5cm_min_carrot"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_hum" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

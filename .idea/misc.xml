@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout-land/activity_more_information_b.xml" value="0.225" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout-land/activity_more_information_m.xml" value="0.225" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout-land/activity_more_information_t.xml" value="0.225" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout-land/activity_more_information_to.xml" value="0.225" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout-land/activity_more_information_z.xml" value="0.225" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout/activity_more_information.xml" value="0.1956521739130435" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout/fragment_details.xml" value="0.1956521739130435" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout/fragment_gallery.xml" value="0.1956521739130435" />
+        <entry key="..\:/Final final/Izhuatl2/app/src/main/res/layout/fragment_growing_plant.xml" value="0.1956521739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

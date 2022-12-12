@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#394450"
+    tools:context=".MoreInformationM"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/image_manzanilla"
+        android:layout_width="wrap_content"
+        android:layout_height="700px"
+        android:scaleType="fitXY"
+        android:src="@drawable/manzanilla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/details_manzanilla2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#396568"
+        android:text="@string/chamomile_is_a_plant_chamonile"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_manzanilla" />
+
+    <ImageView
+        android:id="@+id/image_manzanilla2"
+        android:layout_width="550px"
+        android:layout_height="950px"
+        android:scaleType="fitXY"
+        android:src="@drawable/manzanilla2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_manzanilla2" />
+
+    <TextView
+        android:id="@+id/text_aspects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/important_aspects"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/image_manzanilla2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_manzanilla2" />
+
+    <TextView
+        android:id="@+id/text_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/temperature_35_max_chamonile"
+        android:textAlignment="textStart"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_aspects" />
+
+    <TextView
+        android:id="@+id/text_hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/humedity_25_chamonile"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_temp" />
+
+    <TextView
+        android:id="@+id/text_height"
+        android:layout_width="179dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/height_30cm_max_and_5cm_min_chamonile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_hum" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

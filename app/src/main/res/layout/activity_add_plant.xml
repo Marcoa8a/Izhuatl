@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".AddPlant">
+
+
+
+        <FrameLayout
+            android:id="@+id/Contenedor"
+            android:layout_width="350dp"
+            android:layout_height="460dp"
+            android:background="#EDF4ED"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/name_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/enterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/enter_your_name_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/type_of_plant_add"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/enterType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="155dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/enter_the_type_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/start_date_on_photostimulador_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/enterDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/enter_the_date_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/initial_size_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/enterSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/enter_the_size_add"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="400dp"
+                android:text="@string/save_add"
+                android:textAlignment="center"
+                android:onClick="SavePlant"/>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="138dp"
+            android:layout_height="123dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="66dp"
+            tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

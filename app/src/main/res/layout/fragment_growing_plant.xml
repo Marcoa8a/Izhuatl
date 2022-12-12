@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".ui.growing.growingPlant">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <FrameLayout
+            android:id="@+id/Contenedor"
+            android:layout_width="310dp"
+            android:layout_height="440dp"
+            android:background="#0D390E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:text="@string/name_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/enterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/photos_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/type_of_plant_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/enterType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="155dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="@string/ornamental_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/start_date_on_photostimulador_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/enterDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="2022-03-03"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:id="@+id/textSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/initial_size_growing"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/enterSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:shadowColor="@color/black"
+                android:text="10cm"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/container_newPlant"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
